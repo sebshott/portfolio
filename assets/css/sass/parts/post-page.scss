@@ -91,9 +91,8 @@
       margin-bottom: 0.5%;
       transition: all .3s;
       overflow: hidden;
-      // Gradient overlay
-      &::before {
-        content: "";
+      
+      .recent-overlay {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -101,9 +100,8 @@
         height: 50%;
         background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
         z-index: 1;
-        pointer-events: none;
-        box-sizing: content-box;
       }
+      
       span {
         position: absolute;
         font-size: 12px;
@@ -111,8 +109,8 @@
         bottom: 10%;
         color: $white;
         z-index: 2;
-        position: relative;
       }
+      
       &:hover {
         opacity: 0.8;
       }

@@ -18,6 +18,9 @@ BN Builders raised industry standards on the Lowe County Public Health Lab proje
 - Real-time model updates and synchronization across teams
 - Simultaneous coordination of building systems, site utilities, and exterior envelope
 
+![Magic Leap 2 AR Implementation]({{ "/assets/img/lowe-county-lab-2.jpg" | prepend: site.baseurl }})
+*Onsite AR visualization using Magic Leap 2 headsets for real-time model overlay and installation verification*
+
 **Dusty Robotic Layout System**
 - Model-driven automated framing layouts
 - Replaced traditional line-snapping methods

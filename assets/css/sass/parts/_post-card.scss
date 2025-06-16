@@ -30,24 +30,25 @@
       right: 0;
       bottom: 0;
       background: rgba(0,0,0,.3);
+      z-index: 1;
     }
-    // NEW: Bottom text overlay
+    // Bottom text overlay
     &::before {
       content: "";
       position: absolute;
       bottom: 0;
       left: 0;
       right: 0;
-      height: 40%;
-      background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
-      z-index: 1;
+      height: 50%;
+      background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+      z-index: 2;
     }
   }
   .post-card-body {
     position: absolute;
     left: 5%;
     bottom: 5%;
-    z-index: 2;
+    z-index: 3;
     .post-card-link {
       text-decoration: none;
       display: block;

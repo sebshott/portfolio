@@ -1,6 +1,6 @@
 title: My personal porfolio - Sebastian Schott
 email: 
-description: > "Hi, I'm Sebastian! I'm a VDC Manager passionate about transforming construction through technology, automation, and smart coordination processes."
+description: "Hi, I'm Sebastian! I'm a VDC Manager passionate about transforming construction through technology, automation, and smart coordination processes."
 permalink: ':title/'
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "https://sebshott.github.io" # the base hostname & protocol for your site, e.g. http://example.com

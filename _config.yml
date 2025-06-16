@@ -1,25 +1,22 @@
-title: My personal blog - Adam Neilson
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: My personal porfolio - Sebastian Schott
+email: 
+description: > "Hi, I'm Sebastian! I'm a VDC Manager passionate about transforming construction through technology, automation, and smart coordination processes."
 permalink: ':title/'
-baseurl: "/adam-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+url: "https://sebshott.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
-author: Adam Neilson # add your name
+author: Sebastian Schott # add your name
 author-pic: adam-face.jpg
-about-author: My name is Adam Neilson. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 2 years.
+about-author: My name is Sebastian Schott. I’m a VDC Manager with 8 years of construction industry experience specializing in automation, coordination methodologies, and emerging technologies. Passionate about transforming construction workflows through innovative scripting solutions and smart project delivery.
 
 # Contact links
-email: # Add your Email address
+email: SeabassSchott@gmail.com
 phone: # Add your Phone number
 website: # Add your website, do not add http://
-linkedin: # Add your Linkedin handle
-github: artemsheludko # Add your Github handle
-twitter: '@artemsheludko_' # Add your Twitter handle
+linkedin: https://www.linkedin.com/in/sebastian-schott-vdc/
+github:  # Add your Github handle
+twitter:  # Add your Twitter handle
 facebook: # Add your Facebook handle
 instagram: # Add your Instagram handle
 pinterest: # Add your Pinterest handle

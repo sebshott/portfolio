@@ -1,7 +1,6 @@
 .post-card-box {
   margin: 100px 0 100px;
   padding: 0;
-
   li {
     position: relative;
     list-style: none;
@@ -13,10 +12,8 @@
     }
   }
 }
-
 .post-card {
   position: relative;
-
   .post-card-image {
     display: block;
     width: 100%;
@@ -34,18 +31,27 @@
       bottom: 0;
       background: rgba(0,0,0,.3);
     }
+    // NEW: Bottom text overlay
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 40%;
+      background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+      z-index: 1;
+    }
   }
-
   .post-card-body {
     position: absolute;
     left: 5%;
     bottom: 5%;
-
+    z-index: 2;
     .post-card-link {
       text-decoration: none;
       display: block;
     }
-
     .post-card-title {
       font-family: 'Lato', sans-serif;
       font-weight: 700;
@@ -57,7 +63,6 @@
         opacity: .8;
       }
     }
-
     .tag {
       text-decoration: none;
       font-size: 10px;

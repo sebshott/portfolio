@@ -4,7 +4,7 @@ title: "T-Bar Generator: Automating Supplemental Modeling with Dynamo"
 date: 2024-06-25
 categories: [scripting]
 tags: [Dynamo, Revit, Automation, VDC, Modeling]
-image: assets/img/tbar-generator.jpg
+image: assets/img/tbar-generator.png
 ---
 
 ## Project Overview

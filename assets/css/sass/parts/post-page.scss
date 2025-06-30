@@ -92,14 +92,14 @@
       transition: all .3s;
       overflow: hidden;
       
-      .recent-overlay {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 60%;
-        background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.4));
-        z-index: 1;
+    .recent-overlay {
+      position: absolute !important;
+      bottom: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      height: 60% !important;
+      background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.4)) !important;
+      z-index: 1 !important;
       }
       
       span {

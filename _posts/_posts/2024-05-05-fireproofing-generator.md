@@ -4,7 +4,7 @@ title: "Fireproofing Generator: Automated Clearance Modeling for Structural Comp
 date: 2024-05-05
 categories: [scripting]
 tags: [Dynamo, Revit, Automation, Fireproofing, Structural, Clash Detection]
-img: fireproofing-generator.jpg
+img: fireproofing-generator.png
 ---
 
 ## Project Overview

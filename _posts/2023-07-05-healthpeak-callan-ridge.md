@@ -33,6 +33,12 @@ The Healthpeak Callan Ridge project at 3020 and 3030 Callan Road showcased advan
 - Live model versioning control for continuous stakeholder alignment
 - Integrated design-build workflow supporting owner/architectural input
 
+**Stud Rail Penetration Coordination**
+- Custom modeling of structural stud rails for precise penetration planning
+- Proactive coordination between gravity piping systems and structure
+- Field-ready penetration schedules preventing costly structural rework
+- Systematic conflict avoidance for MEP/structural interfaces
+
 **Underground Coordination Protocol**
 - Systematic POC (point of connection) collection with invert elevations
 - Collaborative utility routing verification with site utility engineers
@@ -49,15 +55,17 @@ The Healthpeak Callan Ridge project at 3020 and 3030 Callan Road showcased advan
 - **Dozens of RFIs generated** to drive timely design solution closure
 - **Seamless design-build integration** with enhanced owner collaboration
 - **Comprehensive underground coordination** preventing costly field conflicts
+- **Zero structural rework** from MEP penetration conflicts through stud rail modeling
+- **Optimized penetration schedules** enabling efficient field execution
 - **Roof drainage optimization** improving long-term building performance
 
 ## Design-Build Innovation Highlights
 
-This project demonstrated the power of VDC in design-build delivery, where architectural vision, owner requirements, and constructability considerations must be balanced simultaneously. The extensive preconstruction coordination effort created a robust foundation for construction execution while maintaining the collaborative spirit essential to successful design-build projects.
+This project demonstrated the power of VDC in design-build delivery, where architectural vision, owner requirements, and constructability considerations must be balanced simultaneously. The innovative stud rail modeling approach exemplified proactive coordination, preventing the typical costly conflicts between gravity piping and structural elements that plague many projects.
 
-The systematic approach to underground coordination and the comprehensive conflict resolution process established protocols that enhanced both design quality and construction efficiency, proving that thorough preconstruction VDC investment delivers measurable value throughout project delivery.
+The extensive preconstruction coordination effort created a robust foundation for construction execution while maintaining the collaborative spirit essential to successful design-build projects.
 
-![Callan Ridge Coordination Model]({{ "/assets/img/callan-ridge-model.jpg" | prepend: site.baseurl }})
-*Comprehensive coordination model showing integrated MEP systems and structural elements*
+![Callan Ridge Coordination Model]({{ "/assets/img/callan-ridge-model.png" | prepend: site.baseurl }})
+*Comprehensive coordination model showing integrated MEP systems, structural elements, and detailed stud rail penetrations*
 
 *The Callan Ridge project exemplifies how strategic VDC leadership in preconstruction can transform complex design-build challenges into coordinated, constructible solutions that meet both owner expectations and design intent.*

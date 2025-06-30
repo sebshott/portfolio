@@ -5,7 +5,7 @@
       {% if post.title %}
         <a href="{{ root_url }}{{ post.url | prepend: site.baseurl }}" class="recent-item" style="background: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}}) center no-repeat; background-size: cover;">
           <div class="recent-overlay" style="position: absolute; bottom: 0; left: 0; right: 0; height: 60%; background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.4)); z-index: 1;"></div>
-          <span style="position: relative; z-index: 2; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">{{ post.title }}</span>
+          <span style="position: absolute; bottom: 15px; left: 2.5%; right: 2.5%; z-index: 2; text-shadow: 1px 1px 2px rgba(0,0,0,0.8); color: white; font-size: 12px; line-height: 1.3;">{{ post.title }}</span>
         </a>
       {% endif %}
     {% endfor %}

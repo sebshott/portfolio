@@ -3,11 +3,18 @@
     {% if site.discus_identifier %}
     <div id="disqus_thread" class="article-comments"></div>
     <script>
-      // Disqus configuration
-      var disqus_config = function () {
+      window.disqus_config = function () {
         this.page.url = "{{ page.url | absolute_url }}";
         this.page.identifier = "{{ page.id }}";
-        this.page.recommended = false; // This disables the "Also on" related content
+        this.page.recommended = false;
+        this.page.discovery = false;
+        this.callbacks.onReady.push(function() {
+          // Hide recommendations after Disqus loads
+          var recommendations = document.getElementById('disqus_recommendations');
+          if (recommendations) {
+            recommendations.style.display = 'none';
+          }
+        });
       };
       
       (function() {

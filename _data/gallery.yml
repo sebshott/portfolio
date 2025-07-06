@@ -1,0 +1,24 @@
+- title: "T-Bar Generator Script"
+  description: "Dynamo workflow for automated ceiling system modeling"
+  image: "gallery/tbar-workflow.jpg"
+  type: "image"
+
+- title: "Lowe County Public Health Lab"
+  description: "Integrated VDC coordination with Revizto, Dusty robotics, and AR visualization"
+  image: "gallery/lowe-county-exterior.jpg"
+  type: "image"
+
+- title: "Callan Ridge Project"
+  description: "Design-build coordination with comprehensive underground utilities"
+  image: "gallery/callan-ridge-aerial.jpg"
+  type: "image"
+
+- title: "Fireproofing Generator"
+  description: "Automated structural fireproofing clearance modeling"
+  image: "gallery/fireproofing-demo.jpg"
+  type: "image"
+
+- title: "Project Demo Video"
+  description: "VDC workflow demonstration"
+  video: "https://www.youtube.com/embed/YOUR_VIDEO_ID"
+  type: "video"

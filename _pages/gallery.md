@@ -13,51 +13,97 @@ permalink: /gallery/
 }
 
 .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  columns: 4;
+  column-gap: 20px;
   margin-top: 20px;
+}
+
+@media (max-width: 1024px) {
+  .gallery-grid {
+    columns: 3;
+  }
 }
 
 @media (max-width: 768px) {
   .gallery-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    columns: 2;
   }
 }
 
 @media (max-width: 480px) {
   .gallery-grid {
-    grid-template-columns: 1fr;
+    columns: 1;
   }
 }
 
 .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 20px;
   cursor: pointer;
   transition: transform 0.3s ease;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   background: white;
+  position: relative;
 }
 
 .gallery-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+/* Varied heights for Pinterest effect */
+.gallery-item:nth-child(3n+1) img {
+  height: 200px;
+}
+
+.gallery-item:nth-child(3n+2) img {
+  height: 280px;
+}
+
+.gallery-item:nth-child(3n+3) img {
+  height: 320px;
+}
+
+.gallery-item:nth-child(7n+1) img {
+  height: 350px;
+}
+
+.gallery-item:nth-child(11n+1) img {
+  height: 240px;
 }
 
 .gallery-item img {
   width: 100%;
-  height: 250px;
   object-fit: cover;
   display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
 }
 
 .gallery-item-title {
   padding: 15px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 600;
   color: #333;
-  text-align: center;
+  text-align: left;
+  line-height: 1.3;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+/* Special styling for video items */
+.gallery-item.video-item {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.gallery-item.video-item .gallery-item-title {
+  color: white;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
 }
 
 /* Lightbox Styles */
@@ -114,6 +160,7 @@ permalink: /gallery/
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background 0.3s ease;
 }
 
 .lightbox-close:hover {

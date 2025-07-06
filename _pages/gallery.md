@@ -73,17 +73,21 @@ permalink: /gallery/
 }
 
 .lightbox-content {
-  position: relative;
-  margin: 5% auto;
-  max-width: 90%;
-  max-height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90vw;
+  max-height: 90vh;
   text-align: center;
 }
 
 .lightbox-image {
   max-width: 100%;
-  max-height: 70vh;
+  max-height: 75vh;
   object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 .lightbox-video {
@@ -91,6 +95,8 @@ permalink: /gallery/
   height: 45vw;
   max-width: 800px;
   max-height: 450px;
+  display: block;
+  margin: 0 auto;
 }
 
 .lightbox-close {

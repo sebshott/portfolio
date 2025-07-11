@@ -12,7 +12,12 @@
   description: "Thermal analysis and building performance visualization"
   image: "gallery/pacific-center-court-cupix-heatmap.png"
   type: "image"
-
+  
+- title: "Edgewise: Existing Conditions Modeling Example Workflow"
+  description: "This video provides a brief glimpse into an intensive as-built modeling process undertaken single-handedly for an 80,000 square foot laboratory facility"
+  video: "https://www.youtube-nocookie.com/embed/gMD3CvEUWvM?si=Co_khTZIMAl9cfIT"
+  type: "video"
+  
 - title: "Fireproofing Generator"
   description: "Automated structural fireproofing clearance modeling for clash detection"
   image: "gallery/fireproofing-generator.png"

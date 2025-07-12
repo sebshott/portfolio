@@ -13,7 +13,7 @@
   image: "gallery/pacific-center-court-cupix-heatmap.png"
   type: "image"
 
-  - title: "Dynamo: AOI (Area of Influence) Generator"
+- title: "Dynamo: AOI (Area of Influence) Generator"
   description: "Showcasing efficient Dynamo automation for generating structural Areas of Influence (AOI)"
   video: "https://www.youtube-nocookie.com/embed/R9N9t1P7AYs?si=-daXxJNUZB03GQ_3"
   type: "video"
